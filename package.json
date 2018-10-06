@@ -1,0 +1,26 @@
+{
+  "name": "mpesa-demo-app",
+  "version": "1.0.0",
+  "description": "App for demoing an integration with the m-pesa payments API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "keywords": [
+    "jasmine",
+    "m-pesa",
+    "lit-html",
+    "webcomponents"
+  ],
+  "author": "osvaldom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jasmine": "^3.2.0"
+  }
+}
